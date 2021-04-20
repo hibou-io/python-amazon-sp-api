@@ -7,7 +7,8 @@ setup(
         "requests",
         "six~=1.15.0",
         "boto3~=1.16.39",
-        "cachetools~=4.2.0",
+        # cachetools for Odoo <2.9.9
+        # "cachetools~=4.2.0",
         "pycryptodome",
         "pytz",
         "confuse~=1.4.0",
